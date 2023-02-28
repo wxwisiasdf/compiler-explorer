@@ -170,7 +170,7 @@ const definitions: Record<LanguageKey, LanguageDefinition> = {
         monaco: 'cobol',
         extensions: ['.cob', '.cbl', '.cobol'],
         alias: [],
-        logoUrl: 'c++.svg', // TODO: Find a better alternative
+        logoUrl: null, // TODO: Find a better alternative
         formatter: null,
         logoUrlDark: null,
         previewFilter: null,
